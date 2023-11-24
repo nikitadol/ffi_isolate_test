@@ -1,7 +1,7 @@
 import 'dart:ffi';
 import 'dart:isolate';
 
-import 'package:t/generated_bindings.dart';
+import 'package:ffi_isolate_test/generated_bindings.dart';
 
 final dynamicLib = DynamicLibrary.open(
   "rust_lib_test/target/debug/librust_lib_test.dylib",
